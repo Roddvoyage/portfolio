@@ -2451,12 +2451,13 @@
   @media screen and (max-width: 479px) {
     .div-block {
       background-image: radial-gradient(circle farthest-side, #3d1313, #08070e);
+      min-height: 100vh;
     }
   
     .div-block-2 {
       flex-flow: column;
       justify-content: flex-start;
-      height: 100vh;
+      height: 100%;
       padding-left: 20px;
       padding-right: 20px;
     }
