@@ -2451,7 +2451,7 @@
   @media screen and (max-width: 479px) {
     .div-block {
       background-image: radial-gradient(circle farthest-side, #3d1313, #08070e);
-      min-height: 100vh;
+      height: 100vh;
     }
   
     .div-block-2 {
@@ -2586,8 +2586,8 @@
     .div-block-25 {
       justify-content: center;
       align-items: center;
-      width: 15px;
-      height: 15px;
+      width: auto;
+      height: auto;
       padding-bottom: 0;
       padding-right: 0;
       display: flex;
@@ -2596,8 +2596,8 @@
     .div-block-26 {
       justify-content: center;
       align-items: center;
-      width: 25px;
-      height: 25px;
+      width: auto;
+      height: auto;
       padding-bottom: 0;
       padding-right: 0;
       display: flex;
@@ -2606,19 +2606,22 @@
     .div-block-27, .div-block-28, .div-block-29 {
       justify-content: center;
       align-items: center;
-      width: 15px;
-      height: 15px;
+      width: auto;
+      height: auto;
       padding-bottom: 0;
       padding-right: 0;
       display: flex;
     }
   
     .image-7 {
-      height: 100%;
+      height: 15px;
+      width: auto;
     }
   
     .image-8, .image-9, .image-10, .image-11 {
       opacity: .2;
+      height: 15px;
+      width: auto;
     }
   
     .div-block-30 {
@@ -3325,12 +3328,390 @@ grid-template-rows: 5px;
     display: flex;
   }
 
-
-
   }
 
 
-  
+  @media only screen and (max-width: 412px) and (max-height: 914px) {
+    /*education*/
+    .div-block-14{
+      max-width:100%;
+      height:150px;
+      padding-right:10px;
+      padding-bottom:10px;
+    }
+
+      
+    .heading-2 {
+      font-size: 12pt;
+      line-height: 16pt;
+    }
+
+    .heading-4 {
+      font-size: 12pt;
+    }
+
+    .heading-6 {
+      font-size: 12pt;
+    }
+        /*profession*/
+        .profession-div-block-13 {
+          grid-column-gap: 20px;
+          grid-row-gap: 20px;
+          flex-flow: row;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 80%;
+          padding-top: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          display: none;
+        }
+
+        .profession-empresa {
+          color: #fff;
+          width: 100%;
+          margin-top: 0;
+              margin-bottom: 0;
+          font-family: Generalsans, sans-serif;
+          font-size: 12pt;
+          font-weight: 500;
+          line-height: 14pt;
+        }
+        
+        .profession-profissao.a {
+          color: #fff;
+          width: 100%;
+          margin-top: 0;
+              margin-bottom: 0;
+          font-family: Generalsans, sans-serif;
+          font-size: 12pt;
+          font-weight: 500;
+          line-height: 14pt;
+        }
+        
+        .profession-div-block-40 {
+          flex-flow: column;
+          justify-content: space-between;
+          gap:5px;
+          width: 100%;
+          height: auto;
+          display: flex;
+        }
+
+
+
+        .profession-div-block-37 {
+          flex-flow: column;
+          justify-content: space-between;
+          width: 100%;
+          height: auto;
+          display: flex;
+          gap:5px;
+        }
+        .profession-div-block-38 {
+          flex-flow: column;
+          justify-content: space-between;
+          align-items: stretch;
+          height: 100%;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          display: flex;
+          width:250px;
+        }
+
+        
+        .profession-profissao.b {
+          color: rgba(255, 255, 255, .25);
+          opacity: 1;
+          width: 200px;
+          margin-top: 10px;
+          margin-bottom: 0;
+          font-family: Generalsans, sans-serif;
+          font-size: 12pt;
+          font-weight: 200;
+          margin-top: 0;
+          line-height: 14pt;
+        }
+        
+  .profession-heading-7 {
+    font-size: 12pt;
+    line-height: 14pt;
+  }
+  .profession-div-block-41 {
+    flex-flow: column;
+    justify-content: space-between;
+    height: auto;
+    min-height: 0;
+    display: flex;
+  }
+  }
+
+  @media only screen and (max-width: 414px) and (max-height: 896px) {
+        /*education*/
+    .div-block-14{
+      max-width:100%;
+      height:150px;
+      padding-right:10px;
+      padding-bottom:10px;
+    }
+
+      
+    .heading-2 {
+      font-size: 12pt;
+      line-height: 16pt;
+    }
+
+    .heading-4 {
+      font-size: 12pt;
+    }
+
+    .heading-6 {
+      font-size: 12pt;
+    }
+            /*profession*/
+            .profession-div-block-13 {
+              grid-column-gap: 20px;
+              grid-row-gap: 20px;
+              flex-flow: row;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              height: 80%;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              padding-left: 0px;
+              display: none;
+            }
+    
+            .profession-empresa {
+              color: #fff;
+              width: 100%;
+              margin-top: 0;
+                  margin-bottom: 0;
+              font-family: Generalsans, sans-serif;
+              font-size: 12pt;
+              font-weight: 500;
+              line-height: 14pt;
+            }
+            
+            .profession-profissao.a {
+              color: #fff;
+              width: 100%;
+              margin-top: 0;
+                  margin-bottom: 0;
+              font-family: Generalsans, sans-serif;
+              font-size: 12pt;
+              font-weight: 500;
+              line-height: 14pt;
+            }
+            
+            .profession-div-block-40 {
+              flex-flow: column;
+              justify-content: space-between;
+              gap:5px;
+              width: 100%;
+              height: auto;
+              display: flex;
+            }
+    
+    
+    
+            .profession-div-block-37 {
+              flex-flow: column;
+              justify-content: space-between;
+              width: 100%;
+              height: auto;
+              display: flex;
+              gap:5px;
+            }
+            .profession-div-block-38 {
+              flex-flow: column;
+              justify-content: space-between;
+              align-items: stretch;
+              height: 100%;
+              padding-top: 20px;
+              padding-bottom: 20px;
+              display: flex;
+              width:250px;
+            }
+    
+            
+            .profession-profissao.b {
+              color: rgba(255, 255, 255, .25);
+              opacity: 1;
+              width: 200px;
+              margin-top: 10px;
+              margin-bottom: 0;
+              font-family: Generalsans, sans-serif;
+              font-size: 12pt;
+              font-weight: 200;
+              margin-top: 0;
+              line-height: 14pt;
+            }
+            
+      .profession-heading-7 {
+        font-size: 12pt;
+        line-height: 14pt;
+      }
+      .profession-div-block-41 {
+        flex-flow: column;
+        justify-content: space-between;
+        height: auto;
+        min-height: 0;
+        gap:5px;
+        display: flex;
+      }
+  }
+
+
+
+  @media only screen and (max-width: 430px) and (max-height: 932px) {
+        /*education*/
+    .div-block-14{
+      max-width:100%;
+      height:150px;
+      padding-right:10px;
+      padding-bottom:10px;
+    }
+
+      
+    .heading-2 {
+      font-size: 12pt;
+      line-height: 16pt;
+    }
+
+    .heading-4 {
+      font-size: 12pt;
+    }
+
+    .heading-6 {
+      font-size: 12pt;
+    }
+            /*profession*/
+            .profession-div-block-13 {
+              grid-column-gap: 20px;
+              grid-row-gap: 20px;
+              flex-flow: row;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              height: 80%;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              padding-left: 0px;
+              display: none;
+            }
+    
+            .profession-empresa {
+              color: #fff;
+              width: 100%;
+              margin-top: 0;
+                  margin-bottom: 0;
+              font-family: Generalsans, sans-serif;
+              font-size: 12pt;
+              font-weight: 500;
+              line-height: 14pt;
+            }
+            
+            .profession-profissao.a {
+              color: #fff;
+              width: 100%;
+              margin-top: 0;
+                  margin-bottom: 0;
+              font-family: Generalsans, sans-serif;
+              font-size: 12pt;
+              font-weight: 500;
+              line-height: 14pt;
+            }
+            
+            .profession-div-block-40 {
+              flex-flow: column;
+              justify-content: space-between;
+              gap:5px;
+              width: 100%;
+              height: auto;
+              display: flex;
+            }
+    
+    
+    
+            .profession-div-block-37 {
+              flex-flow: column;
+              justify-content: space-between;
+              width: 100%;
+              height: auto;
+              display: flex;
+              gap:5px;
+            }
+            .profession-div-block-38 {
+              flex-flow: column;
+              justify-content: space-between;
+              align-items: stretch;
+              height: 100%;
+              padding-top: 20px;
+              padding-bottom: 20px;
+              display: flex;
+              width:250px;
+            }
+    
+            
+            .profession-profissao.b {
+              color: rgba(255, 255, 255, .25);
+              opacity: 1;
+              width: 200px;
+              margin-top: 10px;
+              margin-bottom: 0;
+              font-family: Generalsans, sans-serif;
+              font-size: 12pt;
+              font-weight: 200;
+              margin-top: 0;
+              line-height: 14pt;
+            }
+            
+      .profession-heading-7 {
+        font-size: 12pt;
+        line-height: 14pt;
+      }
+      .profession-div-block-41 {
+        flex-flow: column;
+        justify-content: space-between;
+        height: auto;
+        min-height: 0;
+        gap:5px;
+        display: flex;
+      }
+  }
+
+  @media only screen and (max-width: 344px) and (max-height: 882px) {
+        /*education*/
+    .div-block-14{
+      max-width:100%;
+      height:150px;
+      padding-right:10px;
+      padding-bottom:10px;
+    }
+
+      
+    .heading-2 {
+      font-size: 10pt;
+      line-height: 16pt;
+    }
+
+    .heading-4 {
+      font-size: 12pt;
+    }
+
+    .heading-6 {
+      font-size: 12pt;
+    }
+            /*profession*/
+  }
+
+
+
+
+
   @font-face {
     font-family: 'Generalsans';
     src: url('../fonts/GeneralSans-Bold.otf') format('opentype');
