@@ -273,7 +273,7 @@ function openMenu() {
   button.style.paddingRight="40px";
   button.style.height="60px";
   button.style.maxWidth="728px";
-  button.style.fontSize="12px";
+  button.style.fontSize="16pt";
   button.style.marginLeft="auto";
   button.style.justifyContent="right";
 }
