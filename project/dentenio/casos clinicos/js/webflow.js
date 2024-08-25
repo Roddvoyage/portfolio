@@ -212,6 +212,7 @@ let originalStyles = {
   navmenuHeight: navmenu.style.height,
   navmenuMarginRight: navmenu.style.marginRight,
   navbarBackground: navbar.style.background,
+  buttonstylefontSize:button.style.fontSize,
 };
 
 // Function to open the menu
@@ -256,11 +257,11 @@ function openMenu() {
   navlink3.style.opacity = "1";
   navlink4.style.opacity = "1";
   navlink5.style.opacity = "1";
-  navlink.style.height = "20px";
-  navlink2.style.height = "20px";
-  navlink3.style.height = "20px";
-  navlink4.style.height = "20px";
-  navlink5.style.height = "20px";
+  navlink.style.height = "60px";
+  navlink2.style.height = "60px";
+  navlink3.style.height = "60px";
+  navlink4.style.height = "60px";
+  navlink5.style.height = "60px";
   button.style.width="100%";
   button.style.color="#0b3944";
   button.style.background="transparent";
@@ -269,7 +270,7 @@ function openMenu() {
   button.style.paddingRight="40px";
   button.style.height="60px";
   button.style.maxWidth="728px";
-  button.style.fontSize="12px";
+  button.style.fontSize="16pt";
   button.style.marginLeft="auto";
   button.style.justifyContent="right";
 }
@@ -337,7 +338,7 @@ function closeMenu() {
     button.style.paddingLeft="15px";
     button.style.height="38px";
     button.style.maxWidth="160px";
-    button.style.fontSize="10pt";
+    button.style.fontSize= buttonstylefontSize;
     button.style.margin="0px";
     button.style.justifyContent="center";
    }, 300); 
