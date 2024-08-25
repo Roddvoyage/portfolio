@@ -244,7 +244,7 @@ function openMenu() {
   navlink3.style.marginRight = "40px";
   navlink4.style.marginRight = "40px";
   navlink5.style.marginRight = "40px";
-  navlink5.style.marginBottom = "20px";
+  navlink5.style.marginBottom = "0px";
   navlink.style.fontWeight = "700";
   navlink2.style.fontWeight = "700";
   navlink3.style.fontWeight = "700";
@@ -255,11 +255,11 @@ function openMenu() {
   navlink3.style.opacity = "1";
   navlink4.style.opacity = "1";
   navlink5.style.opacity = "1";
-  navlink.style.height = "20px";
-  navlink2.style.height = "20px";
-  navlink3.style.height = "20px";
-  navlink4.style.height = "20px";
-  navlink5.style.height = "20px";
+  navlink.style.height = "60px";
+  navlink2.style.height = "60px";
+  navlink3.style.height = "60px";
+  navlink4.style.height = "60px";
+  navlink5.style.height = "60px";
 }
 
 // Function to close the menu
