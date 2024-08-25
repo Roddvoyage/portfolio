@@ -928,13 +928,16 @@
   opacity:1;
 }
 
-
+.w-nav-button{
+  padding:0px;
+}
 
 @media screen and (max-width: 991px) {
   .logo{
     margin-right:70%;
   }
   .w-nav-button{
+    padding:0px;
     margin-right: 0%;
     }
   .container {
