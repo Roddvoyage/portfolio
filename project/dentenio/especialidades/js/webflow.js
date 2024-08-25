@@ -218,6 +218,7 @@ let originalStyles = {
   navmenuHeight: navmenu.style.height,
   navmenuMarginRight: navmenu.style.marginRight,
   navbarBackground: navbar.style.background,
+  buttonstylefontSize:button.style.fontSize,
 };
 
 // Function to open the menu
@@ -227,7 +228,7 @@ function openMenu() {
   iconnavmenu.style.backgroundColor = "#fff";
   navmenubutton.style.backgroundColor = "#fff";
   navmenubutton.style.marginRight = "0px";
-  container.style.justifyContent="left";
+  container.style.justifyContent="space-between";
   navmenu.style.justifyContent="right";
   navmenu.style.flexDirection="row";
   navmenu.style.height = "auto";
@@ -258,11 +259,11 @@ function openMenu() {
   navlink3.style.opacity = "1";
   navlink4.style.opacity = "1";
   navlink5.style.opacity = "1";
-  navlink.style.height = "20px";
-  navlink2.style.height = "20px";
-  navlink3.style.height = "20px";
-  navlink4.style.height = "20px";
-  navlink5.style.height = "20px";
+  navlink.style.height = "60px";
+  navlink2.style.height = "60px";
+  navlink3.style.height = "60px";
+  navlink4.style.height = "60px";
+  navlink5.style.height = "60px";
   navlink.style.display = "flex";
   navlink2.style.display = "flex";
   navlink3.style.display = "flex";
@@ -283,8 +284,8 @@ function openMenu() {
   button.style.boxShadow="none";
   button.style.padding="20px";
   button.style.paddingRight="0px";
-  button.style.height="40px";
-  button.style.fontSize="12px";
+  button.style.height="60px";
+  button.style.fontSize="16pt";
   button.style.justifyContent="right";
 button.style.width="100%";
 button.style.maxWidth="728px";
@@ -303,7 +304,7 @@ function closeMenu() {
   setTimeout(() => {
       navmenubutton.style.marginRight = originalStyles.marginRight;
       navbar.style.borderBottom = "none";
-      container.style.justifyContent="left";
+      container.style.justifyContent="space-between";
       navmenu.style.height = "0";
       navmenu.classList.remove("open");
       navmenu.style.backgroundColor = "transparent";
