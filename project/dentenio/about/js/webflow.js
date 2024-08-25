@@ -216,6 +216,7 @@ let originalStyles = {
   navmenuHeight: navmenu.style.height,
   navmenuMarginRight: navmenu.style.marginRight,
   navbarBackground: navbar.style.background,
+  buttonstylefontSize:button.style.fontSize,
 };
 
 // Function to open the menu
@@ -272,7 +273,7 @@ function openMenu() {
   button.style.paddingRight="40px";
   button.style.height="60px";
   button.style.maxWidth="728px";
-  button.style.fontSize="12px";
+  button.style.fontSize="16pt";
   button.style.marginLeft="auto";
   button.style.justifyContent="right";
   navmenu.style.borderBottom = "1px solid #0b3944";
