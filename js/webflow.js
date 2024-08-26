@@ -85,7 +85,7 @@
   let icon5=document.querySelector(".portefolio-div-block-51");
   let icon6=document.querySelector(".portefolio-div-block-52");
   let logo = document.querySelector('.logo');
-  let projetlogosquare=document.queryselector(".project-logo-square");
+  let projetlogosquare=document.querySelector(".project-logo-square");
   
   
   function resetMargin() {
