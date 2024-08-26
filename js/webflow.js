@@ -85,7 +85,7 @@
   let icon5=document.querySelector(".portefolio-div-block-51");
   let icon6=document.querySelector(".portefolio-div-block-52");
   let logo = document.querySelector('.logo');
-  
+  let projetlogosquare=document.queryselector(".project-logo-square");
   
   
   function resetMargin() {
@@ -329,7 +329,7 @@
       thirdproject.style.width="5px";
       thirdproject.style.backgroundColor="rgba(255, 255, 255, 0.2)";
       projectImage.style.background="linear-gradient(45deg, #0f0f0f, #3a3a3a)";
-  
+  projetlogosquare.href="https://roddvoyage.github.io/portfolio/project/sabu";
   
   
       setTimeout(() => {
@@ -362,6 +362,7 @@
       thirdproject.style.width="5px";
       thirdproject.style.backgroundColor="rgba(255, 255, 255, 0.2)";
       projectImage.style.background="black";
+        projetlogosquare.href="https://roddvoyage.github.io/portfolio/project/solinca";
       /**/
   
       setTimeout(() => {
@@ -397,6 +398,7 @@
       thirdproject.style.backgroundColor="rgba(255, 255, 255, 1)";
       projectImage.classList.add('rotate');
       projectImage.style.background="white";
+        projetlogosquare.href="https://roddvoyage.github.io/portfolio/project/dentenio";
   
       setTimeout(() => {
           brandTitle.innerHTML = "DENTÉNIO";
