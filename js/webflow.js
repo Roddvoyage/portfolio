@@ -401,7 +401,7 @@
       setTimeout(() => {
           brandTitle.innerHTML = "DENTÉNIO";
           brandDescription.innerHTML = "local dental clinic";
-          logo.setAttribute('src', 'images/denteniologoc.png');
+          logo.setAttribute('src', 'images/denteniologoe.png');
       }, 650); // Delay of 500ms
   
   
