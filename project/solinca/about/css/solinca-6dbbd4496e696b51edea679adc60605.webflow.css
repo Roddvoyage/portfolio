@@ -567,7 +567,7 @@
   }
   
   .div-block-28.blogimage3 {
-    background-image: radial-gradient(circle, rgba(255, 255, 255, 0), rgba(0, 0, 0, .73)), url('../../../images/pexels-willpicturethis-1954524.jpg');
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0), rgba(0, 0, 0, .73)), url('../../images/pexels-willpicturethis-1954524.jpg');
     width: 100%;
     height: 150px;
   }
@@ -3819,14 +3819,14 @@
   
   @font-face {
     font-family: 'chillax light';
-    src: url('../../../fonts/Chillax-Light.otf');
+    src: url('../../fonts/Chillax-Light.otf');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Outfit-Bold';
-    src: url('../../../fonts/Outfit-Bold.otf');
+    src: url('../../fonts/Outfit-Bold.otf');
     font-weight: 900;
     font-style: bold;
     font-display: swap;
@@ -3834,7 +3834,7 @@
   
   @font-face {
     font-family: 'chillax bold';
-    src: url('../../../fonts/Chillax-Medium.otf');
+    src: url('../../fonts/Chillax-Medium.otf');
     font-weight: 900;
     font-style: bold;
     font-display: swap;
@@ -3842,7 +3842,7 @@
   
   @font-face {
     font-family: 'Outfit-Extralight';
-    src: url('../../../fonts/Outfit-ExtraLight.otf');
+    src: url('../../fonts/Outfit-ExtraLight.otf');
     font-weight: 100;
     font-style: light;
     font-display: swap;
