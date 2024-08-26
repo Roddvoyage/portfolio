@@ -362,7 +362,7 @@
       thirdproject.style.width="5px";
       thirdproject.style.backgroundColor="rgba(255, 255, 255, 0.2)";
       projectImage.style.background="black";
-        projetlogosquare.href="https://roddvoyage.github.io/portfolio/project/solinca/homepage";
+      projetlogosquare.href="https://roddvoyage.github.io/portfolio/project/solinca/homepage";
       /**/
   
       setTimeout(() => {
@@ -398,7 +398,7 @@
       thirdproject.style.backgroundColor="rgba(255, 255, 255, 1)";
       projectImage.classList.add('rotate');
       projectImage.style.background="white";
-        projetlogosquare.href="https://roddvoyage.github.io/portfolio/project/dentenio";
+      projetlogosquare.href="https://roddvoyage.github.io/portfolio/project/dentenio/homepage";
   
       setTimeout(() => {
           brandTitle.innerHTML = "DENTÉNIO";
