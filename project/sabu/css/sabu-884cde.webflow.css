@@ -211,7 +211,7 @@
   width: 200px;
   height: 200px;
   display: flex;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 1s ease-in-out ;
 }
  
