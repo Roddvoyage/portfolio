@@ -362,7 +362,7 @@
       thirdproject.style.width="5px";
       thirdproject.style.backgroundColor="rgba(255, 255, 255, 0.2)";
       projectImage.style.background="black";
-        projetlogosquare.href="https://roddvoyage.github.io/portfolio/project/solinca";
+        projetlogosquare.href="https://roddvoyage.github.io/portfolio/project/solinca/homepage";
       /**/
   
       setTimeout(() => {
